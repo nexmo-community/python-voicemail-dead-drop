@@ -7,15 +7,19 @@
             href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
             integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w"
             crossorigin="anonymous">
+        <link
+            rel="stylesheet"
+            href="/static/style.css">
     </head>
     <body>
-        <h1>Dead Drop Recordings</h1>
+        <h1><i>"Oleg's Pizza"</i><br>Dead Drop Recordings</h1>
         {% if recordings %}
             <div class="recordings">
                 {% for recording in recordings -%}
                     <div class="recording">
-                        <h2>{{ recording.recording_uuid }}</h2>
-                        <a href="/recordings/{{ recording.recording_uuid }}">Listen</a>
+                        <h2>Call From: <em>{{ recording.related_call.from }}</em></h2>
+                        <p><strong>When:</strong> {{ recording.related_call.timestamp }}</p>
+                        <img src="/static/audio.svg" width="24" height="24" class="icon" /><a href="/recordings/{{ recording.uuid }}">Listen</a>
                     </div>
                 {% endfor -%}
             </div>

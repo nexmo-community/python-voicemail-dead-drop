@@ -1,0 +1,19 @@
+
+body {
+    margin: 1em;
+}
+
+.recording {
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0.1em 0.1em 0.3em 0px rgba(0,0,0,0.2);
+}
+
+.recording h2 {
+    margin-top: 0px;
+}
+
+.icon {
+    vertical-align: middle;
+    padding: 2px;
+}
