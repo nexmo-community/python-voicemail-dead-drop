@@ -1,4 +1,5 @@
-flask
-tinydb
-nexmo
-python-dotenv
+pip-tools~=3.5
+flask~=1.0
+tinydb~=3.13
+nexmo~=2.3
+python-dotenv~=0.10
