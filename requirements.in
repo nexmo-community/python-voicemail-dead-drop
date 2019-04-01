@@ -1,0 +1,4 @@
+flask
+tinydb
+nexmo
+python-dotenv
