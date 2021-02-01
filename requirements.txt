@@ -4,25 +4,24 @@
 #
 #    pip-compile 
 #
-asn1crypto==0.24.0        # via cryptography
 certifi==2019.3.9         # via requests
 cffi==1.12.2              # via cryptography
 chardet==3.0.4            # via requests
 click==7.0                # via flask, pip-tools
-cryptography==2.6.1       # via pyjwt
-flask==1.0.2
+cryptography==3.2         # via pyjwt
+flask==1.0.2              # via -r requirements.in
 idna==2.8                 # via requests
 itsdangerous==1.1.0       # via flask
 jinja2==2.10              # via flask
 markupsafe==1.1.1         # via jinja2
-nexmo==2.3.0
-pip-tools==3.5.0
+nexmo==2.3.0              # via -r requirements.in
+pip-tools==3.5.0          # via -r requirements.in
 pycparser==2.19           # via cffi
 pyjwt[crypto]==1.7.1      # via nexmo
-python-dotenv==0.10.1
+python-dotenv==0.10.1     # via -r requirements.in
 pytz==2018.9              # via nexmo
 requests==2.21.0          # via nexmo
 six==1.12.0               # via cryptography, pip-tools
-tinydb==3.13.0
+tinydb==3.13.0            # via -r requirements.in
 urllib3==1.24.2           # via requests
 werkzeug==0.15.1          # via flask
