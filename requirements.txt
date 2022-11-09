@@ -18,7 +18,7 @@ markupsafe==1.1.1         # via jinja2
 nexmo==2.3.0
 pip-tools==3.5.0
 pycparser==2.19           # via cffi
-pyjwt[crypto]==1.7.1      # via nexmo
+pyjwt[crypto]==2.4.0      # via nexmo
 python-dotenv==0.10.1
 pytz==2018.9              # via nexmo
 requests==2.21.0          # via nexmo
