@@ -9,7 +9,7 @@ certifi==2019.3.9         # via requests
 cffi==1.12.2              # via cryptography
 chardet==3.0.4            # via requests
 click==7.0                # via flask, pip-tools
-cryptography==2.6.1       # via pyjwt
+cryptography==3.2       # via pyjwt
 flask==1.0.2
 idna==2.8                 # via requests
 itsdangerous==1.1.0       # via flask
